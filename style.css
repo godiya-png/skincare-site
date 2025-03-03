@@ -179,4 +179,20 @@ button:hover {
     /* margin-top: 2%; */
 }
 
+@media screen and (max-width: 768px) {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  
+    video {
+      max-width: 100%;
+    }
+  }
 
+  img, video {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
